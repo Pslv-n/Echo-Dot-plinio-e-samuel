@@ -106,11 +106,26 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer h5 {
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .ancora-topo {
-    position: fixed;
-    bottom: 70px;
+    position: absolute; 
     right: 20px;
-    padding: 10px 15px;
+    top: 50%;
+    transform: translateY(-50%); 
+
+}
+
+.ancora-topo img {
+    height: 50px;
+    width: auto;
+    display: block;
 }
